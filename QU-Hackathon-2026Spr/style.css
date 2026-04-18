@@ -1,3 +1,9 @@
 body {
     background-color: lightblue;
 }
+
+text {
+  color: blue;
+  font-size: 18px;
+  text-align: center;
+}
