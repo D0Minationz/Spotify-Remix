@@ -4,112 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Remix</title>
-    <style>
-      
-        body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: lightblue;
-        }
-
-        header {
-        background-color: #222;
-        color: white;
-        padding: 15px;
-        text-align: center;
-        }
-
-        nav {
-        background-color: #444;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        padding: 10px;
-        }
-
-        nav a {
-        color: white;
-        text-decoration: none;
-        }
-
-        nav a:hover {
-        text-decoration: underline;
-        }
-
-        main {
-        display: flex;
-        padding: 20px;
-        gap: 20px;
-        }
-
-        section {
-        flex: 2;
-        background: white;
-        padding: 15px;
-        border-radius: 8px;
-        }
-
-        aside {
-        flex: 1;
-        background: #f1f1f1;
-        padding: 15px;
-        border-radius: 8px;
-        }
-
-        footer {
-        background-color: #222;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        margin-top: 20px;
-        }
-    </style>
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<header>
-   
-</header>
-
-
 <body>
-    <aside>
-        <p>Sidebar content (ads, extras, etc.)</p>
-  </aside>
+    <section class = "container">
+    <section class = "sidebar">
+        <div>
+            <button> Home </button>
+        </div>
 
-  <footer>
-    <p>© 2026 My Website</p>
-  </footer>
+        <div>
+            <button> Search </button>
+        </div>
 
-    <div>
-        <button> Home </button>
-    </div>
+        <div>
+            <button> Your Library </button>
+        </div>
 
-    <div>
-        <button> Search </button>
-    </div>
+        <div>
+            <button> Create PlayList </button>
+        </div>
 
-    <div>
-        <button> Your Library </button>
-    </div>
+        <div>
+            <button> Your Episodes </button>
+        </div>
+    </section>
 
-    <div>
-        <button> Your Library </button>
-    </div>
-
-    <div>
-        <button> Create PlayList </button>
-    </div>
-
-    <div>
-        <button> Your Episodes </button>
-    </div>
+    <section class = "main">
+        <img src = "images/likedSongs.png" class="LikedSongs">
+        <h1>Liked Songs</h1>
+        <div>
+            <img src = "images/playButton.gif" class="playButton">
+        </div>
+    </section>
     
-    <p>Here is a paragraph that I am writing</p>
-    <button> Button </button>
-    <a href="https://www.youtube.com/watch?v=salY_Sm6mv4"> Anchor Tag </a>
-    <span> Here is a span of text that I am writing</span>
-    <p> Some extra text</p>
+    </section>
 </body>
 </html>
